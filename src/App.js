@@ -7,8 +7,10 @@ class App extends Component {
     return (
       <div className="App">
       <h1>Here come the moving pictures!</h1>
+      <hr />
       <FilmBox />
-      <h2>Click here for more</h2>
+      <hr />
+      <h3><a href="https://www.imdb.com/calendar/?region=gb">Click here for more</a></h3>
       </div>
     );
   }
