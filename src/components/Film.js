@@ -5,7 +5,7 @@ class Film extends Component{
   render(){
     return(
       <Fragment>
-      <p> this is a film</p>
+      <a href={this.props.url}><p>{this.props.name}</p></a>
       </Fragment>
     )
   }
