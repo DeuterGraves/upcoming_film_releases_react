@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import FilmList from '../components/FilmList.js'
 
 class FilmBox extends Component{
 
   render(){
     return(
-      <p>Our film list here</p>
+      <FilmList />
     );
   }
 }
